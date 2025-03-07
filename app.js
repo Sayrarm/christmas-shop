@@ -1,3 +1,5 @@
+import './style.css'; // Импортируем CSS-файл
+
 //Burger-menu
 
 document.addEventListener('DOMContentLoaded', function () {

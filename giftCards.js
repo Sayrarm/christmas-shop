@@ -1,3 +1,5 @@
+import './style.css'; // Импортируем CSS-файл
+
 import {products} from './cards.js';
 import { openModal, closeModal, renderProducts } from './Modal.js';
 

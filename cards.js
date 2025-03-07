@@ -1,3 +1,8 @@
+import './style.css'; // Импортируем CSS-файл
+import forWork from './images/gift-for-work.png';
+import forHealth from './images/gift-for-work.png';
+import forHarmony from './images/gift-for-work.png';
+
 //cards
 
 export const products = [
@@ -5,7 +10,7 @@ export const products = [
         name: "Bug Magnet",
         description: "Able to find bugs in code like they were placed there on purpose.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             "live": "+500",
             "create": "+500",
@@ -17,7 +22,7 @@ export const products = [
         name: "Console.log Guru",
         description: "Uses console.log like a crystal ball to find any issue.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             live: "+500",
             create: "+500",
@@ -29,7 +34,7 @@ export const products = [
         name: "Shortcut Cheater",
         description: "Knows every keyboard shortcut like they were born with them.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             live: "+500",
             create: "+500",
@@ -41,7 +46,7 @@ export const products = [
         name: "Merge Master",
         description: "Merges branches in Git without conflicts, like a wizard during an exam.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             live: "+200",
             create: "+500",
@@ -53,7 +58,7 @@ export const products = [
         name: "Async Tamer",
         description: "Handles asynchronous code and promises like well-trained pets.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             live: "+100",
             create: "+400",
@@ -65,7 +70,7 @@ export const products = [
         name: "CSS Tamer",
         description: "Can make Flexbox and Grid work together like they were always best friends.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             live: "+200",
             create: "+500",
@@ -77,7 +82,7 @@ export const products = [
         name: "Time Hacker",
         description: "Writes code at the last moment but always meets the deadline.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             live: "+500",
             create: "+500",
@@ -89,7 +94,7 @@ export const products = [
         name: "Layout Master",
         description: "Creates perfect layouts on the first try, like they can read the designer's mind.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             live: "+500",
             create: "+300",
@@ -101,7 +106,7 @@ export const products = [
         name: "Documentation Whisperer",
         description: "Understands cryptic documentation as if they wrote it themselves.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             live: "+500",
             create: "+500",
@@ -113,7 +118,7 @@ export const products = [
         name: "Feedback Master",
         description: "Accepts client revisions with the Zen calm of Buddha.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             live: "+300",
             create: "+500",
@@ -126,7 +131,7 @@ export const products = [
         name: "Code Minimalist",
         description: "Writes code so concise that one line does more than a whole file.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             live: "+500",
             create: "+500",
@@ -139,7 +144,7 @@ export const products = [
         name: "Pixel-Perfect Magician",
         description: "Aligns elements to the last pixel, even when the design looks abstract.",
         category: "For-Work",
-        img: "images/gift-for-work.png",
+        img: forWork,
         superpowers: {
             live: "+500",
             create: "+500",
@@ -152,7 +157,7 @@ export const products = [
         name: "Posture Levitation",
         description: "Can sit for hours, but maintains perfect posture like a ballerina.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             live: "+400",
             create: "+500",
@@ -165,7 +170,7 @@ export const products = [
         name: "Step Master",
         description: "Gets 10,000 steps a day even while sitting at the computer.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             live: "+400",
             create: "+300",
@@ -178,7 +183,7 @@ export const products = [
         name: "Snack Resister",
         description: "Ignoring desktop snacks like a strict dietician.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             live: "+400",
             create: "+100",
@@ -191,7 +196,7 @@ export const products = [
         name: "Hydration Bot",
         description: "Drinks the recommended 2 liters of water a day like a health-programmed robot.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             live: "+500",
             create: "+300",
@@ -204,7 +209,7 @@ export const products = [
         name: "Sleep Overlord",
         description: "Sleeps 6 hours but feels like they had 10.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             live: "+400",
             create: "+500",
@@ -217,7 +222,7 @@ export const products = [
         name: "Break Guru",
         description: "Takes a stretch break every hour without forgetting, no matter how focused.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             live: "+300",
             create: "+300",
@@ -230,7 +235,7 @@ export const products = [
         name: "Eye Protector",
         description: "Can work all day at the monitor without feeling like their eyes are on fire.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             live: "+100",
             create: "+300",
@@ -243,7 +248,7 @@ export const products = [
         name: "Stress Dodger",
         description: "Masters meditation right at the keyboard.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             live: "+100",
             create: "+400",
@@ -256,7 +261,7 @@ export const products = [
         name: "Yoga Coder",
         description: "Easily switches from coding to yoga and back.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             "live": "+400",
             "create": "+400",
@@ -269,7 +274,7 @@ export const products = [
         name: "Healthy Snacker",
         description: "Always picks fruit, even when chocolate is within arm’s reach.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             live: "+400",
             create: "+300",
@@ -282,7 +287,7 @@ export const products = [
         name: "Chair Exerciser",
         description: "Manages to work out without leaving the chair.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             live: "+500",
             create: "+500",
@@ -295,7 +300,7 @@ export const products = [
         name: "Caffeine Filter",
         description: "Drinks coffee at night and still falls asleep with no problem.",
         category: "For-Health",
-        img: "images/gift-for-health.png",
+        img: forHealth,
         superpowers: {
             live: "+400",
             create: "+300",
@@ -308,7 +313,7 @@ export const products = [
         name: "Joy Charger",
         description: "Finds joy in the little things—even in a build that finishes unexpectedly fast.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+200",
             create: "+200",
@@ -321,7 +326,7 @@ export const products = [
         name: "Error Laugher",
         description: "Laughs at code errors like they’re jokes instead of getting angry.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+300",
             create: "+200",
@@ -334,7 +339,7 @@ export const products = [
         name: "Bug Acceptance Guru",
         description: "Accepts bugs as part of the journey to perfection — it’s just another task.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+300",
             create: "+200",
@@ -347,7 +352,7 @@ export const products = [
         name: "Spontaneous Coding Philosopher",
         description: "Philosophically accepts any client suggestion after a long refactor.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+300",
             create: "+200",
@@ -360,7 +365,7 @@ export const products = [
         name: "Deadline Sage",
         description: "Remains zen even when the deadline is close and the project manager is stressed.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+200",
             create: "+200",
@@ -373,7 +378,7 @@ export const products = [
         name: "Inspiration Maestro",
         description: "Finds inspiration on an empty screen as if masterpieces are already there.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+300",
             create: "+200",
@@ -386,7 +391,7 @@ export const products = [
         name: "Peace Keeper",
         description: "Maintains inner calm even in moments of intense crisis.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+200",
             create: "+200",
@@ -399,7 +404,7 @@ export const products = [
         name: "Empathy Guru",
         description: "Feels the team’s mood and can lift everyone’s spirits.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+500",
             create: "+200",
@@ -412,7 +417,7 @@ export const products = [
         name: "Laughter Generator",
         description: "Can lighten any tense situation with a joke that even bugs laugh at.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+300",
             create: "+200",
@@ -425,7 +430,7 @@ export const products = [
         name: "Pause Master",
         description: "Knows when to just step back from the keyboard and breathe.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+300",
             create: "+200",
@@ -438,7 +443,7 @@ export const products = [
         name: "Coder Healer",
         description: "Can support a colleague in their darkest hour, even if it’s a 500 error.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+300",
             create: "+200",
@@ -451,7 +456,7 @@ export const products = [
         name: "Music Code Curator",
         description: "Creates work playlists so good, even deadlines follow the rhythm.",
         category: "For-Harmony",
-        img: "images/gift-for-harmony.png",
+        img: forHarmony,
         superpowers: {
             live: "+300",
             create: "+200",

@@ -1,3 +1,7 @@
+import './style.css'; // Импортируем CSS-файл
+import redStart from './images/mini-snowflake.svg';
+import grayStart from './images/mini-snowflake.svg';
+
 function preventDefault(e) {
     e.preventDefault();
 }
@@ -7,9 +11,9 @@ function generateStars(value) {
     let stars = '';
     for (let i = 0; i < 5; i++) {
         if (i < numStars) {
-            stars += '<img class="red-star" src="images/mini-snowflake.svg" alt="red-snowflake"></img>';
+            stars += `<img class="red-star" src="${redStart}" alt="red-snowflake">`;
         } else {
-            stars += '<img class="gray-star" src="images/mini-snowflake-disable.svg" alt="gray-snowflake"></img>';
+            stars += `<img class="gray-star" src="${grayStart}" alt="gray-snowflake">`;
         }
     }
     return stars;
