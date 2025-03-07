@@ -61,7 +61,7 @@ module.exports = {
             directory: path.join(__dirname, 'dist'),
         },
         compress: true,
-        port: 9001,
+        port: 9002,
         open: {
             app: {
                 name: 'google-chrome', // Или 'firefox', 'edge' и т.д.
